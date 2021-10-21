@@ -1,0 +1,28 @@
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+    #nav{
+        font-size: 3.5em;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    #nav{
+        font-size:5em;
+    }
+}
+
+/* md 
+@media screen and (min-width: 992px) {
+    #nav{
+        font-size: 1.0em;
+    }
+}
+
+lg 
+@media screen and (min-width: 1200px) {
+    #nav{
+        font-size: 1.2em;
+    }
+}
+/*

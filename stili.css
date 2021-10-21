@@ -16,8 +16,63 @@ a{
     text-decoration: none;
 }
 
-.nav{
+.spazio{
+    height: 98px;
+}
+
+
+#nav{
     font-family: 'Permanent Marker', cursive;
-    font-size: 60px;
+    font-size: 80px;
     text-align: center;
+    color: white;
+}
+
+#immagine
+{
+    text-align: center;
+}
+
+.caselle{
+    border: 2px solid white;
+    border-radius: 5px;
+    min-height: 210px;
+    color: white;
+    padding: 10px;
+}
+
+.titolo{
+    text-align: center;
+    font-size: 20px;
+}
+
+.testo{
+    padding-top: 2px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.col
+{
+    margin-top: 10px;
+}
+
+#siti_YT
+{
+    color: white;
+    border: 2px solid rgb(255, 0, 0);
+    margin: 0 10% 0 10%;
+    border-radius: 5px;
+    min-height: 200px;
+    padding: 15px;
+}
+
+#collegamento
+{
+    color: white;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.info
+{
+    margin-top: 4px;
 }
