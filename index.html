@@ -24,11 +24,13 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet"> 
         
+        <link href="https://ianlunn.github.io/Hover/css/hover.css" rel="stylesheet" type="text/css">
 
         <title>Giacomix's site</title>
 
         <link rel="stylesheet" href="./stili.css">
         <link rel="stylesheet" href="./testo.css">
+        
 
     </head>
     <body>
@@ -63,7 +65,7 @@
                 <div class="caselle">
                     <div class="titolo">Cosa sto imparando?</div>
                     <div class="testo">
-                        Attualmente frequento l'Università, facoltà di Informatica, dove studierò un po' tutto, tra cui Java. inoltre mi sono iscritto a dei corsi su Unity per crare giochi 2d platform e imparerò Javascript
+                        Attualmente frequento l'Università, facoltà di Informatica, dove studierò un po' tutto, tra cui Java. Inoltre mi sono iscritto a dei corsi su Unity per crare giochi 2d platform e imparerò Javascript
                     </div>
                 </div>
               </div>
@@ -72,22 +74,40 @@
 
         <div class="spazio"></div>
 
-        <div id="siti_YT">
+        <div id="siti_coll_esterni">
             <div class="titolo">Dove puoi venire a trovarmi?</div>
 
-            <div class="testo info">- Sul sito in cui pubblico tutti i miei programmi e siti: 
-                <a href="https://giacomix.altervista.org/"  target="_blank" rel="noopener noreferrer" class="collegamento" >Clicca qui</a>
-            </div>
+            <div class="spazio1"></div>
 
-            <div class="testo info">- Sul mio canale Youtube: 
-                <a href="https://www.youtube.com/channel/UCxcxrPgMk2ZpuWteNOPju3g"  target="_blank" rel="noopener noreferrer" class="collegamento" >Clicca qui</a>
-            </div>
 
-            <div class="testo info">- Sul mio canale Twich: 
-                <a href="https://www.twitch.tv/giacomix_02"  target="_blank" rel="noopener noreferrer" class="collegamento" >Clicca qui</a>
-            </div>
+
+            <div class="container">
+                <div class="row">
+                  <div class="col-lg-3 col-sm-12">
+                    <a  class="hvr-grow" id="testo_div"  href="https://www.youtube.com/channel/UCxcxrPgMk2ZpuWteNOPju3g" target="_blank" rel="noopener noreferrer">
+                        <div id="div_cliccabile">Youtube</div>
+                    </a>
+                  </div>
+                  <div class="col-lg-3 col-sm-12">
+                    <a  id="testo_div" href="https://www.twitch.tv/giacomix_02" target="_blank" rel="noopener noreferrer">
+                        <div id="div_cliccabile">Twitch</div>
+                    </a>
+                  </div>
+                  <div class="col-lg-3 col-sm-12">
+                    <a  id="testo_div" href="https://giacomix.altervista.org/" target="_blank" rel="noopener noreferrer">
+                        <div id="div_cliccabile">I miei programmi e siti</div>
+                    </a>
+                  </div>
+                  <div class="col-lg-3 col-sm-12">
+                    <a  id="testo_div" href="https://github.com/Giacomix02" target="_blank" rel="noopener noreferrer">
+                        <div id="div_cliccabile">Github</div>
+                    </a>
+                  </div>
+                </div>
+              </div>
         </div>
-
+        
+            
         <div class="spazio"></div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
