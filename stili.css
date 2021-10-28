@@ -102,7 +102,7 @@ a{
 #testo_div
 {
     font-family: 'Didact Gothic', sans-serif;
-    display: inline;
+    display: block;
 	color: white;
 	text-decoration: none;
 	text-align: center;
