@@ -38,13 +38,14 @@ a{
 }
 
 .caselle{
-    border: 2px solid white;
-    border-radius: 5px;
+    border: 1px solid gray;
+    border-radius: 0.6rem;
     min-height: 210px;
     max-height: 260px;
     color: white;
     padding: 10px;
     margin-top: 20px;
+    background-color: rgb(46, 48, 46);
 }
 
 .titolo{
